@@ -1,5 +1,5 @@
-source_code_url: https://github.com/redhat-cop/container-pipelines.git
-source_code_ref: master
+source_code_url: https://github.com/kenwilli/container-pipelines.git
+source_code_ref: promote-gate
 skip_manual_promotion: false
 
 openshift_cluster_content:
