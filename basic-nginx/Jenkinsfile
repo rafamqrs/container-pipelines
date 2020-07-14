@@ -64,6 +64,7 @@ pipeline {
     stage('Promotion gate (Stage)') {
       steps {
         script {
+	  error("Build failed because of this and that..")
 	  if(!("${SKIP_MANUAL_PROMOTION}").toBoolean()) {
             input message: 'Promote Application to Stage?'
           }
